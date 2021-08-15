@@ -30,10 +30,10 @@
        "branch": "lineage-18.1"
     },
     {
-        "remote": "devices",
-        "repository": "kernel_xiaomi_ginkgo",
+        "remote": "github",
+        "repository": "dsashwin/android_kernel_xiaomi_ginkgo",
         "target_path": "kernel/xiaomi/ginkgo",
-        "branch": "fire"
+        "branch": "arrow-11.0"
     },
     {
         "remote": "devices",
@@ -52,5 +52,11 @@
         "repository": "whyredfire/android_vendor_miuicamera",
         "target_path": "vendor/miuicamera",
         "branch": "eleven"
+    },
+    {
+        "remote":       "github",
+        "repository":   "ThankYouMario/proprietary_vendor_qcom_sdclang",
+        "target_path":  "prebuilts/clang/host/linux-x86/clang-sdllvm",
+        "branch":       "ruby-12"
     }
 ]
